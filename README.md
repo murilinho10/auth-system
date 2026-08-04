@@ -29,4 +29,4 @@ auth-system/
     └── config.js
 ```
 ## Descrição
-Um sistema simples e fácil de autenticação. Com funções de criar conta, acessar conta e recuperação de senha.
+Um sistema simples e fácil de autenticação. Com funções de cadastro, login e recuperação de senha 100% funcional.
