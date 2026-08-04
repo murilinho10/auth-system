@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Criar conta</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Criar conta</h1>
+      <p class="subtitulo">Preencha seus dados para começar.</p>
+
+      <form id="formCadastro">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required autocomplete="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required autocomplete="new-password" minlength="8">
+        <span class="dica">Mínimo 8 caracteres, com letras e números.</span>
+
+        <button type="submit">Criar conta</button>
+      </form>
+
+      <div id="mensagem" class="mensagem"></div>
+
+      <p class="link-baixo">Já tem conta? <a href="login.html">Entrar</a></p>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="cadastro.js"></script>
+</body>
+</html>
