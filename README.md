@@ -28,3 +28,5 @@ auth-system/
     ├── style.css
     └── config.js
 ```
+## Descrição
+Um sistema simples e fácil de autenticação. Com funções de criar conta, acessar conta e recuperação de senha.
